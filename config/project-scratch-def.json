@@ -1,5 +1,19 @@
 {
-  "orgName": "guidorivoir company",
+  "orgName": "Einstein Prediction Builder Demo",
+  "description": "epbdemo",
   "edition": "Developer",
-  "features": []
+  "features": ["EinsteinBuilderFree"],
+  "settings": {
+      "lightningExperienceSettings": {
+          "enableS1DesktopEnabled": true
+      },
+      "mobileSettings": {
+          "enableS1EncryptedStoragePref2": false
+      },
+      "securitySettings": {
+          "passwordPolicies": {
+              "enableSetPasswordInApi": true
+          }
+      }
+  }
 }
